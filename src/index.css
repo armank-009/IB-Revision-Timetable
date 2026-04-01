@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ib-blue: #1C3669;
+  --color-session-grey: #F5F5F5;
+  --color-exam-red: #D2042D;
+  --color-hist-gold: #DAA520;
+  --color-bio-green: #228B22;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
